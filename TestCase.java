@@ -18,10 +18,10 @@ public class TestCase {
       // Test Case 3:
       if(year%4 ==0){
         if(year%100 !=0){
-          System.out.println("This "+year+" is NotLeap year");
+          System.out.println("This "+year+" is Leap year");
         }
       }else{
-        System.out.println("This "+year+" is  leap year");
+        System.out.println("This "+year+" is Not leap year");
       }
 
   }
