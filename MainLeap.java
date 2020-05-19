@@ -1,5 +1,7 @@
 class MainLeap{
   public static void main(String args[]){
-    System.out.println("Hello");
+    int year = 2000;
+    TestCase tc = new TestCase();
+    tc.test(year);
   }
 }
