@@ -26,9 +26,9 @@ public class TestCase {
 
       //Test Case 4:
       if(year%4==0){
-        System.out.println("This "+year+" is Not leap year");
-      }else{
         System.out.println("This "+year+" is leap year");
+      }else{
+        System.out.println("This "+year+" is Not leap year");
       }
 
   }
